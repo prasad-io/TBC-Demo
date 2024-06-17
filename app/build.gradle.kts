@@ -61,26 +61,6 @@ kapt {
     correctErrorTypes = true
 }
 
-// ktlint {
-//    android = true
-//    debug = true
-//    verbose = true
-//    outputToConsole = true
-//    outputColorName = "RED"
-//    ignoreFailures = false
-//    enableExperimentalRules = true
-//    reporters {
-//        reporter(ReporterType.PLAIN)
-//        reporter(ReporterType.CHECKSTYLE)
-//        reporter(ReporterType.SARIF)
-//    }
-//    filter {
-//        exclude("**/style-violations.kt")
-//        exclude("**/generated/**")
-//        include("**/kotlin/**")
-//    }
-// }
-
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -130,11 +110,6 @@ dependencies {
     // gson
     implementation(libs.gson)
 
-    // room
-    implementation(libs.room)
-    kapt(libs.room.compiler)
-    implementation(libs.room.ktx)
-    implementation(libs.room.paging)
 
     implementation(libs.firebase.bom)
     implementation(libs.firebase.analytics)

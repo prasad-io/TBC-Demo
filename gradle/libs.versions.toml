@@ -17,7 +17,6 @@ hilt-compiler = "2.51"
 coil = "2.0.0-rc01"
 paging3 = "3.3.0"
 gson = "2.10.1"
-room = "2.6.1"
 hilt-navigation-compose = "1.2.0"
 mockito = "5.3.1"
 kotlinx-coroutines-test = "1.8.0"
@@ -73,11 +72,6 @@ paging-compose = {group="androidx.paging",name="paging-compose",version.ref="pag
 #gson
 gson = {group="com.google.code.gson",name="gson",version.ref="gson"}
 
-#Room
-room = {group="androidx.room",name="room-runtime",version.ref="room"}
-room-compiler = {group="androidx.room",name="room-compiler",version.ref="room"}
-room-paging = {group="androidx.room",name="room-paging",version.ref="room"}
-room-ktx = {group="androidx.room",name="room-ktx",version.ref="room"}
 
 firebase-bom = {group="com.google.firebase",name="firebase-bom",version.ref="firebase-bom"}
 firebase-analytics = {group="com.google.firebase",name="firebase-analytics",version.ref="firebase-analytics"}
